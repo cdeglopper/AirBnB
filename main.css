@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:700,700italic|Roboto:400,700);
+.jumbotron {
+	color: #fff;
+	background-image: url(https://raw.githubusercontent.com/jsogarro/htmlstuff/master/bootstrap/images/lodging.png);
+	background-size: cover;
+	height: 350px;
+	text-shadow: 3px 3px 3px #595959;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #34343D;
+}
+a {
+	color: ##2D54A1;
+}
+a:hover {
+    text-decoration: underline;
+    color: #34343D;
+}
+h1, h3 {
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+	font-style: italic;
+}
+#guides img {
+	margin: 0 15px 30px 0;
+}
+#top {
+	height: 60px;
+}
