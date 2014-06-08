@@ -4,7 +4,7 @@
 	<title>Vacation Rentals from Airbnb</title>
 	<link rel="stylesheet" href="bootstrap.min.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<link href='http://fonts.googleapis.com/css?family=Vollkorn:700italic,700|Oxygen' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Exo:300,900' rel='stylesheet' type='text/css'>
 </head>
 <body>
 		<!-- Navbar -->
@@ -17,7 +17,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a href="../" class="navbar-brand">SoundBlast</a>
+	      <a href="../" class="navbar-brand"><img src="airbnb-log.png" width="75px" alt="Airbnb logo"></a>
 	    </div>
 	    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 	      <ul class="nav navbar-nav">
@@ -38,10 +38,123 @@
 	    </nav>
 	  </div>
 	</header>
-	<section>
-		
+		<!-- Welcome banner -->
+	<div class="jumbotron">
+		<h1>Find a place to stay.</h1>
+		<p>Rent from people in over 34,000 cities and 192 countries.</p>
+		<form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+	</div>
+	<section id="about">
+		<div class="container">
+			<h2>About</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, amet, quaerat tempore ducimus ipsa explicabo quod similique cum ab perspiciatis omnis dolore placeat a ipsam maiores at rem quas vero.</p>
+		</div>
 	</section>
-	<footer>
-		<p>Copyright Chelsea DeGlopper, 2014</p>
-	</footer>
+	<section id="how">
+		<div class="container">
+			<h2>How It Works</h2>
+			<div class="row">
+				<div class="col-lg-4">
+					<h3>Sign Up</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, eos, corporis ratione excepturi sunt impedit quos soluta adipisci omnis ullam nobis dolorem? Unde, obcaecati dolorum eveniet magnam debitis nobis tempore.</p>
+				</div>
+				<div class="col-lg-4">
+					<h3>List Your Prefs</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laborum iste voluptatem natus magni cum ad sunt porro recusandae hic! Ipsa, odit laboriosam voluptas vero nulla magnam tempore odio quasi.</p>
+				</div>
+				<div class="col-lg-4">
+					<h3>Listen to Your Favorite Music!</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, hic tempora mollitia reprehenderit ab voluptatum temporibus dignissimos quis officia est ut neque nesciunt cupiditate atque eveniet animi quam aut earum!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+			<!-- Table -->
+		<section id="songs">
+		<div class="container">
+			<table class="table table-hover table-striped">
+				<thead>
+					<th>Song</th>
+					<th>Artist</th>
+					<th>Album</th>
+					<th>Genre</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Turn Down for What!</td>
+						<td>Lil John</td>
+						<td>Turn Down Never</td>
+						<td>Hip Hop</td>
+					</tr>
+					<tr>
+						<td>Naked Kids</td>
+						<td>Grouplove</td>
+						<td>Self Titled</td>
+						<td>New Rock</td>
+					</tr>
+					<tr>
+						<td>Heart of the City</td>
+						<td>Jay-Z</td>
+						<td>The Blue Print</td>
+						<td>Hip Hop</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+
+	<section id="#login">
+		<div class="container">
+			<h2>Get Started!</h2>
+			<div class="row">
+				<!-- Signup -->
+				<div class="col-lg-6">
+					<h3> Signup</h3>
+					<form  role="form">
+						<div class="form-group">
+							<label for="">Name</label>
+							<input type="text" class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label for="">Email</label>
+							<input type="text" class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label for="">Password</label>
+							<input type="text" class="form-control">
+						</div>
+
+						<input type="submit" class='btn btn-primary'>
+					</form>
+				</div>
+
+				<!-- Login -->
+				<div class="col-lg-6">
+					<h3>Login</h3>
+					<form  role="form">
+						<div class="form-group">
+							<label for="">Name</label>
+							<input type="text" class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label for="">Email</label>
+							<input type="text" class="form-control">
+						</div>
+
+						<input type="submit" class='btn btn-primary'>
+					</form>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
 </body>
